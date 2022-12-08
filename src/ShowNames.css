@@ -1,0 +1,136 @@
+@keyframes Sex_Selected {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.Div_Search_CSS {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Input_Name_CSS {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: #f4f6f8;
+  border-radius: 50px;
+  outline: none;
+  text-indent: 10px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.Div_M_F_CSS {
+  color: white;
+  font-size: 28px;
+}
+.Div_M_F_CSS:hover {
+  color: rgb(144, 255, 240);
+  cursor: pointer;
+}
+.I_C_M_Filter_CSS,
+.I_C_F_Filter_CSS {
+  padding: 15px 5px;
+  transition: 200ms;
+}
+
+.I_MaleFilter_CSS,
+.I_FemailFilter_CSS {
+  color: white;
+  font-size: 28px;
+  padding: 15px;
+  transition: 200ms;
+}
+.I_MaleFilter_CSS {
+  margin-left: 30px;
+}
+.I_MaleFilter_CSS:hover {
+  cursor: pointer;
+  color: #88c8fd;
+}
+.I_FemailFilter_CSS:hover {
+  cursor: pointer;
+  color: #fc86af;
+}
+.Div_ShowNames_CSS {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f4f6f8;
+  padding: 5px 0px 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: 200ms;
+}
+
+.Div_Male_CSS,
+.Div_Me_CSS {
+  width: 70px;
+  height: 70px;
+  color: #0d47a1;
+  background-color: #90caf9;
+  border-radius: 3px;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 200ms;
+}
+.Div_Male_CSS:hover {
+  background-color: #60b3f6;
+  cursor: pointer;
+}
+.Div_Me_CSS{
+    color: #075e02;
+    background-color: #76fc6f;
+}
+.Div_Me_CSS:hover{
+    background-color: #36f12c;
+    cursor: pointer;
+}
+.I_CSS{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 35px;
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 27px;
+}
+.Div_Female_CSS {
+  width: 70px;
+  height: 70px;
+  color: #c2185b;
+  background-color: #f8bbd0;
+  border-radius: 3px;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 200ms;
+}
+.Div_Female_CSS:hover {
+  background-color: #f27da6;
+  cursor: pointer;
+}
+.P_Name_CSS{
+  width: 70px;
+  height: 20px;
+  font-size: 12px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.P_ME_CSS{
+    color: #0eac06;
+    background-color: #87f781;
+    border-radius: 3px;
+}
